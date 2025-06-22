@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.18)  13 JUN 2025 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.5.18)  21 JUN 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,7 +429,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<img/maquinita_dark.png, id=156, 1027.84pt x 1027.84pt>
+<img/maquinita_dark.png, id=160, 1027.84pt x 1027.84pt>
 File: img/maquinita_dark.png Graphic file (type png)
 <use img/maquinita_dark.png>
 Package pdftex.def Info: img/maquinita_dark.png  used on input line 8.
@@ -455,8 +455,8 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 12.
 
 (./data_structures/pq_minimos.cpp) (./data_structures/pq_max.cpp)
-(./varios/prefix_sum.cpp) (./bits/pop_count.cpp) (./bits/pop_count_ll.cpp)
-(./bits/hack.cpp
+(./varios/prefix_sum.cpp) (./vitsitos/pop_count.cpp)
+(./vitsitos/pop_count_ll.cpp) (./vitsitos/hack.cpp
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (Ã\expandafter).
 
@@ -1731,21 +1731,14 @@ enddocument/afterlastpage: lastpage setting LastPage.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-Package rerunfilecheck Warning: File `maquinita.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `maquinita.out':
-(rerunfilecheck)             Before: 7FEA914D2663A0A6E9F9A65319DCFB77;5479
-(rerunfilecheck)             After:  06E996ECC7DFE1AB52289878FE239AEB;5648.
+Package rerunfilecheck Info: File `maquinita.out' has not changed.
+(rerunfilecheck)             Checksum: 06E996ECC7DFE1AB52289878FE239AEB;5648.
  ) 
 Here is how much of TeX's memory you used:
- 15380 strings out of 474222
- 232029 string characters out of 5748733
+ 15381 strings out of 474222
+ 232109 string characters out of 5748733
  2536975 words of memory out of 5000000
- 36131 multiletter control sequences out of 15000+600000
+ 36132 multiletter control sequences out of 15000+600000
  562060 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,12n,82p,427b,2156s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1754,10 +1747,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on maquinita.pdf (16 pages, 1168886 bytes).
+Output written on maquinita.pdf (16 pages, 1169068 bytes).
 PDF statistics:
- 1750 PDF objects out of 2073 (max. 8388607)
- 1703 compressed objects within 18 object streams
+ 1754 PDF objects out of 2073 (max. 8388607)
+ 1707 compressed objects within 18 object streams
  1232 named destinations out of 1440 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
