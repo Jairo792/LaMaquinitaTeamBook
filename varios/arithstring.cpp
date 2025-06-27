@@ -1,10 +1,12 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #include <string>
 #include <algorithm>
 
-// Suma de strings que representan números enteros positivos
-std::string sumaStrings(const std::string &a, const std::string &b) {
-    std::string res;
+using namespace std;
+
+// Sum of strings representing positive integers
+string sumaStrings(const string &a, const string &b) {
+    string res;
     int carry = 0;
     int i = (int)a.size() - 1;
     int j = (int)b.size() - 1;
@@ -17,21 +19,21 @@ std::string sumaStrings(const std::string &a, const std::string &b) {
         res.push_back((suma % 10) + '0');
         i--; j--;
     }
-    std::reverse(res.begin(), res.end());
+    reverse(res.begin(), res.end());
     return res;
 }
 
-// Compara si a >= b (ambos positivos y sin ceros a la izquierda)
-bool mayorIgual(const std::string &a, const std::string &b) {
+// Compare if a >= b (both positive and without leading zeros)
+bool mayorIgual(const string &a, const string &b) {
     if (a.size() != b.size()) return a.size() > b.size();
     return a >= b;
 }
 
-// Resta de strings a - b (suponiendo a >= b)
-std::string restaStrings(const std::string &a, const std::string &b) {
+// Subtract strings a - b (assuming a >= b)
+string restaStrings(const string &a, const string &b) {
     if (!mayorIgual(a, b)) return "Error: a < b";
 
-    std::string res;
+    string res;
     int i = (int)a.size() - 1;
     int j = (int)b.size() - 1;
     int borrow = 0;
@@ -51,17 +53,17 @@ std::string restaStrings(const std::string &a, const std::string &b) {
         i--; j--;
     }
 
-    // Quitar ceros a la izquierda
+    // Remove leading zeros
     while(res.size() > 1 && res.back() == '0') res.pop_back();
-    std::reverse(res.begin(), res.end());
+    reverse(res.begin(), res.end());
     return res;
 }
 
-// Multiplicación de strings
-std::string multiplicacionStrings(const std::string &a, const std::string &b) {
+// Multiplication of strings
+string multiplicacionStrings(const string &a, const string &b) {
     int n = (int)a.size();
     int m = (int)b.size();
-    std::string res(n + m, '0');
+    string res(n + m, '0');
 
     for(int i = n - 1; i >= 0; i--) {
         int carry = 0;
@@ -75,20 +77,20 @@ std::string multiplicacionStrings(const std::string &a, const std::string &b) {
         res[i] += carry;
     }
 
-    // Quitar ceros a la izquierda
+    // Remove leading zeros
     int pos = 0;
     while (pos < (int)res.size() - 1 && res[pos] == '0') pos++;
     return res.substr(pos);
 }
 
-// Prueba rápida
+// Quick test
 int main() {
-    std::string A = "123456789123456789";
-    std::string B = "987654321987654321";
+    string A = "123456789123456789";
+    string B = "987654321987654321";
 
-    std::cout << "Suma: " << sumaStrings(A, B) << "\n";
-    std::cout << "Resta (B - A): " << restaStrings(B, A) << "\n";  // B > A
-    std::cout << "Multiplicacion: " << multiplicacionStrings(A, B) << "\n";
+    cout << "Sum: " << sumaStrings(A, B) << "\n";
+    cout << "Subtraction (B - A): " << restaStrings(B, A) << "\n";  // B > A
+    cout << "Multiplication: " << multiplicacionStrings(A, B) << "\n";
 
     return 0;
 }

@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
-#include <iomanip> // para setw
+#include <iomanip> // for setw
 using namespace std;
 
-// Función para calcular combinaciones C(n, k)
+// Function to calculate combinations C(n, k)
 int combinacion(int n, int k) {
     if (k == 0 || k == n) return 1;
     int res = 1;
@@ -16,11 +16,11 @@ int combinacion(int n, int k) {
 
 int main() {
     int filas;
-    cout << "Introduce el número de filas: ";
+    cout << "Enter the number of rows: ";
     cin >> filas;
 
     for (int i = 0; i < filas; ++i) {
-        // Imprimir espacios para centrar
+        // Print spaces to center
         cout << setw((filas - i) * 2);
         for (int j = 0; j <= i; ++j) {
             cout << setw(4) << combinacion(i, j);

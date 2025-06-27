@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-// Función auxiliar para eliminar ceros a la izquierda
+// Helper function to remove leading zeros
 string removeLeadingZeros(string num) {
     size_t nonZeroIndex = num.find_first_not_of('0');
     if (nonZeroIndex == string::npos) {
@@ -12,7 +12,7 @@ string removeLeadingZeros(string num) {
     return num.substr(nonZeroIndex);
 }
 
-// Suma de dos números representados como strings
+// Addition of two numbers represented as strings
 string addStrings(string num1, string num2) {
     num1 = removeLeadingZeros(num1);
     num2 = removeLeadingZeros(num2);
@@ -34,7 +34,7 @@ string addStrings(string num1, string num2) {
     return result.empty() ? "0" : result;
 }
 
-// Compara dos números representados como strings (retorna 1 si num1 > num2, -1 si num1 < num2, 0 si iguales)
+// Compare two numbers represented as strings (returns 1 if num1 > num2, -1 if num1 < num2, 0 if equal)
 int compareStrings(string num1, string num2) {
     num1 = removeLeadingZeros(num1);
     num2 = removeLeadingZeros(num2);
@@ -50,7 +50,7 @@ int compareStrings(string num1, string num2) {
     return 0;
 }
 
-// Resta de dos números representados como strings (num1 - num2, asume num1 >= num2)
+// Subtraction of two numbers represented as strings (num1 - num2, assumes num1 >= num2)
 string subtractStrings(string num1, string num2) {
     num1 = removeLeadingZeros(num1);
     num2 = removeLeadingZeros(num2);
@@ -77,7 +77,7 @@ string subtractStrings(string num1, string num2) {
     return removeLeadingZeros(result);
 }
 
-// Multiplicación de dos números representados como strings
+// Multiplication of two numbers represented as strings
 string multiplyStrings(string num1, string num2) {
     num1 = removeLeadingZeros(num1);
     num2 = removeLeadingZeros(num2);
@@ -99,12 +99,12 @@ string multiplyStrings(string num1, string num2) {
     return removeLeadingZeros(result);
 }
 
-// División de dos números representados como strings (división entera)
+// Division of two numbers represented as strings (integer division)
 string divideStrings(string num1, string num2) {
     num1 = removeLeadingZeros(num1);
     num2 = removeLeadingZeros(num2);
     
-    if (num2 == "0") return "Error: División por cero";
+    if (num2 == "0") return "Error: Division by zero";
     if (compareStrings(num1, num2) < 0) return "0";
     
     string quotient;
@@ -138,11 +138,11 @@ int main() {
     string num1, num2;
     char op;
     
-    cout << "Ingrese el primer número: ";
+    cout << "Enter the first number: ";
     cin >> num1;
-    cout << "Ingrese el segundo número: ";
+    cout << "Enter the second number: ";
     cin >> num2;
-    cout << "Ingrese la operación (+, -, *, /): ";
+    cout << "Enter the operation (+, -, *, /): ";
     cin >> op;
     
     string result;
@@ -164,9 +164,9 @@ int main() {
             result = divideStrings(num1, num2);
             break;
         default:
-            result = "Operación no válida";
+            result = "Invalid operation";
     }
     
-    cout << "Resultado: " << result << endl;
+    cout << "Result: " << result << endl;
     return 0;
 }

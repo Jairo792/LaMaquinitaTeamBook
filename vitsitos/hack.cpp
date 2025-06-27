@@ -1,7 +1,7 @@
 /*
  * Bit Hacks
- * Técnicas útiles para trabajar con máscaras de bits.
- * Muy utilizadas en programación competitiva para problemas de conjuntos, DP con bitmasks, combinatoria, etc.
+ * Useful techniques for working with bit masks.
+ * Widely used in competitive programming for set problems, DP with bitmasks, combinatorics, etc.
  */
 
 #include <bits/stdc++.h>
@@ -11,33 +11,33 @@ using ull = unsigned long long;
 
 /*
  * next_bits_permutation(x)
- * Devuelve la siguiente máscara con el mismo número de bits encendidos (1s) en orden lexicográfico.
- * Útil para generar todas las combinaciones de k elementos como máscaras de bits.
+ * Returns the next mask with the same number of set bits (1s) in lexicographical order.
+ * Useful for generating all combinations of k elements as bit masks.
  *
- * Ejemplo:
- * x = 0b00111 (representa una combinación de 3 elementos)
- * next_bits_permutation(x) → 0b01011, luego 0b01101, etc.
+ * Example:
+ * x = 0b00111 (represents a combination of 3 elements)
+ * next_bits_permutation(x) -> 0b01011, then 0b01101, etc.
  */
 ull next_bits_permutation(ull x) {
-    ull c = __builtin_ctzll(x);         // Cuenta los ceros a la derecha de x
-    ull r = x + (1ULL << c);            // Añade 1 al bit menos significativo que está en 1
-    return (r ^ x) >> (c + 2) | r;      // Calcula la siguiente permutación
+    ull c = __builtin_ctzll(x);         // Count trailing zeros in x
+    ull r = x + (1ULL << c);            // Add 1 to the least significant set bit
+    return (r ^ x) >> (c + 2) | r;      // Calculate the next permutation
 }
 
 /*
  * subsets(s)
- * Itera sobre todos los subconjuntos propios (no incluye s) de un conjunto dado s.
- * El conjunto s se representa como una máscara de bits.
+ * Iterates over all proper subsets (does not include s) of a given set s.
+ * The set s is represented as a bit mask.
  *
- * Ejemplo:
- * s = 0b1011 (conjunto {0,1,3})
- * Se recorrerán los subconjuntos: 1010, 1001, 1000, 0011, 0010, 0001
+ * Example:
+ * s = 0b1011 (set {0,1,3})
+ * Will iterate over subsets: 1010, 1001, 1000, 0011, 0010, 0001
  */
 void subsets(ull s) {
     for (ull x = s; x;) {
         --x &= s;
-        // Aquí puedes trabajar con cada subconjunto x
-        // Por ejemplo, imprimirlo:
+        // You can work with each subset x here
+        // For example, print it:
         // cout << bitset<4>(x) << '\n';
     }
 }

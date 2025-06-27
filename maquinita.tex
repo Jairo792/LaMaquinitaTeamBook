@@ -1,11 +1,35 @@
 %"The PDF file may contain up to 25 pages of reference material, single-sided, letter or A4 size, with text and illustrations readable by a person with correctable eyesight without magnification from a distance of 1/2 meter."        
+\documentclass[10pt,landscape,twocolumn,a4paper,notitlepage]{article}
+\usepackage[utf8]{inputenc} % Solo si usas pdfLaTeX
+\usepackage[T1]{fontenc}
+\usepackage[english,activeacute]{babel}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{makeidx}
+
 \input{preamble.tex}
+\newcommand{\mytitle}{UTO-FNI  - La maquinita y sus subordinados}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{\textbf{\mytitle}}
+\fancyhead[C]{\leftmark\ -\ \rightmark}
+\fancyhead[RO]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+
 \begin{document}
+
 % Gracias Demetrio
-\def\title{UTO-FNI  - La maquinita y sus subordinados}
-.\\[0.2cm]
-\centering{\LARGE\textbf{Yisus es mi pastor, nada me faltara}} \\[0.5cm]
-\centering{\includegraphics[width=5.5cm]{img/maquinita_dark.png}}
+\begin{center}
+    {\LARGE\textbf{La Union hace la Fuerza}} \\[0.5cm]
+    \includegraphics[width=5.5cm]{img/maquinita_dark.png}
+\end{center}
 \tableofcontents\newpage
 \section{Data Structures}
 \subsection{Priority Queue de minimos}
@@ -23,7 +47,8 @@ Version para numeros de 64bits (long long)
 \cppfile{vitsitos/pop_count_ll.cpp}
 Hack bits
 \cppfile{vitsitos/hack.cpp}
-
+\subsection{Gcd Bits}
+\cppfile{vitsitos/gcdbits.cpp}
 \section{Grafos}
 \subsection{Revision 8 adyacentes}
 \cppfile{graphs/8adyacence.cpp}
@@ -31,7 +56,7 @@ Hack bits
 \cppfile{graphs/dijkstra.cpp}
 \subsection{Algoritmo Bellman-Ford}
 \cppfile{graphs/bellmanford.cpp}
-\subsetion{Conteo de componentes conexas}
+\subsection{Conteo de componentes conexas}
 \cppfile{graphs/conexas.cpp}
 \subsection{Union Find}
 \cppfile{graphs/unionfind.cpp}
@@ -46,7 +71,7 @@ Hack bits
 \subsection{Uso de Fixed}
 \cppfile{varios/fixed.cpp}
 \subsection{Equivante fixed con printf}
-\cppfile{varios/equivalente.cpp}
+\cppfile{varios/equivante.cpp}
 \subsection{iota}
 Para generar arreglos consecutivos
 \cppfile{varios/iota.cpp}
@@ -66,7 +91,7 @@ Para generar arreglos consecutivos
 \cppfile{varios/pascal.cpp}
 \section{Geometry}
 \subsection{Formulas Basicas}
-\cppfile{areas.cpp}
+\cppfile{geometry/areas.cpp}
 \subsection{Convex Hull}
 \cppfile{geometry/convexhull.cpp}
 \subsection{Trigonometria}
@@ -85,6 +110,12 @@ Para generar arreglos consecutivos
 \subsection{Operaciones con matrices}
 \cppfile{math/matrices.cpp}
 \subsection{Fast Exponentiation}
-\cppfile{math/yisusgei.cpp}
+\cppfile{math/fastExponentiation.cpp}
+\subsection{Mathematical formulas}
+%agregar formulas matematicas que se usan en la maquinita como texto
+\subsubsection{Area de un circulo}
+\begin{equation}
+    A = \pi r^2
+\end{equation}
 \end{document}
 
