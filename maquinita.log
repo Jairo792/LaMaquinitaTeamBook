@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.22)  27 JUN 2025 13:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.22)  27 JUN 2025 15:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,7 +382,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\LENOVO\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-<img/maquinita_dark.png, id=175, 1027.84pt x 1027.84pt>
+<img/maquinita_dark.png, id=187, 1027.84pt x 1027.84pt>
 File: img/maquinita_dark.png Graphic file (type png)
 <use img/maquinita_dark.png>
 Package pdftex.def Info: img/maquinita_dark.png  used on input line 31.
@@ -416,424 +416,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [2]) (vitsitos/gcdbits.cpp) (graphs/8adyacence.cpp) (graphs/dijkstra.cpp
 
-
-graphs/dijkstra.cpp:3: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3  * Encuentra las distancias m铆nimas 
-                                         desde un nodo origen en un grafo po...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/dijkstra.cpp:3: LaTeX Error: Invalid UTF-8 byte "AD.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3  * Encuentra las distancias m铆nimas 
-                                         desde un nodo origen en un grafo po...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
 ) (graphs/bellmanford.cpp
 
-graphs/bellmanford.cpp:3: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3  * Calcula la distancia m谩s 
-                                 corta desde un nodo origen, detecta ciclos ...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/bellmanford.cpp:3: LaTeX Error: Invalid UTF-8 byte "A1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3  * Calcula la distancia m谩s 
-                                 corta desde un nodo origen, detecta ciclos ...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-
-[3]
-
-graphs/bellmanford.cpp:27: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27     // Detecci贸n 
-                       de ciclo negativo
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/bellmanford.cpp:27: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27     // Detecci贸n 
-                       de ciclo negativo
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-) (graphs/conexas.cpp
+[3]) (graphs/conexas.cpp
 
 ) (graphs/unionfind.cpp
 
-graphs/unionfind.cpp:3: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
+[4]) (graphs/diameterfunction.cpp) (string/substring.cpp
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3  * Operaciones eficientes de uni贸n 
-                                        y b煤squeda de conjuntos disjuntos.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+) (string/kmp.cpp
 
-
-graphs/unionfind.cpp:3: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3  * Operaciones eficientes de uni贸n 
-                                        y b煤squeda de conjuntos disjuntos.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:3: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...eraciones eficientes de uni贸n y b煤squeda 
-                                                  de conjuntos disjuntos.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:3: LaTeX Error: Invalid UTF-8 byte "BA.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...eraciones eficientes de uni贸n y b煤squeda 
-                                                  de conjuntos disjuntos.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:4: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4  * Soporta compresi贸n 
-                           de caminos y uni贸n por tama帽o o rango.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:4: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4  * Soporta compresi贸n 
-                           de caminos y uni贸n por tama帽o o rango.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:4: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4  * Soporta compresi贸n de caminos y uni贸n 
-                                               por tama帽o o rango.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:4: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4  * Soporta compresi贸n de caminos y uni贸n 
-                                               por tama帽o o rango.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:4: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...ompresi贸n de caminos y uni贸n por tama帽o 
-                                                  o rango.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:4: LaTeX Error: Invalid UTF-8 byte "B1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 ...ompresi贸n de caminos y uni贸n por tama帽o 
-                                                  o rango.
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:5: LaTeX Error: Invalid UTF-8 byte sequence (蝄lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5  * Complejidad amortizada: O(伪(
-                                    n)) por operaci贸n
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:5: LaTeX Error: Invalid UTF-8 byte "B1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5  * Complejidad amortizada: O(伪(
-                                    n)) por operaci贸n
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:5: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...lejidad amortizada: O(伪(n)) por operaci贸n
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:5: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...lejidad amortizada: O(伪(n)) por operaci贸n
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:22: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 ...rent[u] = find(parent[u]); // compresi贸n 
-                                                  de caminos
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:22: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 ...rent[u] = find(parent[u]); // compresi贸n 
-                                                  de caminos
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:29: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...(size[u] < size[v]) swap(u, v); // uni贸n 
-                                                  por tama帽o
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:29: LaTeX Error: Invalid UTF-8 byte "B3.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...(size[u] < size[v]) swap(u, v); // uni贸n 
-                                                  por tama帽o
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:29: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...size[v]) swap(u, v); // uni贸n por tama帽o
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-graphs/unionfind.cpp:29: LaTeX Error: Invalid UTF-8 byte "B1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...size[v]) swap(u, v); // uni贸n por tama帽o
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-
-[4]) (string/substring.cpp) (string/kmp.cpp
-
-
+[5])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[5]) (varios/next_permutation.cpp) (varios/fixed.cpp) (varios/equivante.cpp)
+(varios/next_permutation.cpp) (varios/fixed.cpp) (varios/equivante.cpp) (varios/iota.cpp) (varios/conversiones.cpp
 
-(varios/iota.cpp) (varios/conversiones.cpp
-
-[6]) (varios/salidas.cpp
-
-) (varios/arithstring.cpp
-
-[7]
+[6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+
+) (varios/salidas.cpp
+
+[7]) (varios/arithstring.cpp
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -857,115 +464,64 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[10]) (varios/codigom.cpp
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (varios/viborita.cpp
 
-[11]) (varios/pascal.cpp
 
-) (geometry/areas.cpp
+) (varios/codigom.cpp
+
+[11]) (varios/viborita.cpp
+
+) (varios/pascal.cpp) (geometry/areas.cpp
 
 [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-) (geometry/convexhull.cpp
 
-[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-) (geometry/trigo.cpp
+[13]) (geometry/convexhull.cpp
 
-geometry/trigo.cpp:11: LaTeX Error: Invalid UTF-8 byte sequence (肻expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 // Funciones trigonom茅tricas
-                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-geometry/trigo.cpp:11: LaTeX Error: Invalid UTF-8 byte "A9.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 // Funciones trigonom茅tricas
-                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-geometry/trigo.cpp:12: LaTeX Error: Invalid UTF-8 byte sequence (肻lst@FillFixed@).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 // 谩ngulos 
-                 en radianes (usar grados * PI/180 para convertir)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-geometry/trigo.cpp:12: LaTeX Error: Invalid UTF-8 byte "A1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 // 谩ngulos 
-                 en radianes (usar grados * PI/180 para convertir)
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-
-[14]
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-) (math/factores.cpp) (math/linearsieve.cpp
-
-[15]) (math/cribitanormal.cpp) (math/cribavasito.cpp
-
-) (math/countdivisors.cpp) (math/matrices.cpp
-
-[16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[14] (geometry/trigo.cpp
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[17]) (math/fastExponentiation.cpp)
+[15]) (math/factores.cpp) (math/linearsieve.cpp
+
+) (math/cribitanormal.cpp) (math/cribavasito.cpp)
+
+[16] (math/countdivisors.cpp) (math/matrices.cpp
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[18
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+) (math/fastExponentiation.cpp) (math/EulerTotien.cpp)
+
+[18] (math/simpson_integration.cpp)
+
+
+
+[19
 
 ] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -975,20 +531,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `maquinita.out' has not changed.
-(rerunfilecheck)             Checksum: 3CDD919CC554B8F2BE254DF7286EA509;6294.
+(rerunfilecheck)             Checksum: 10A0BF6E3AB555235DAA3155DA7C3054;6702.
  ) 
 Here is how much of TeX's memory you used:
- 16165 strings out of 468219
- 249299 string characters out of 5432385
- 1431675 words of memory out of 5000000
- 43030 multiletter control sequences out of 15000+600000
+ 16259 strings out of 468219
+ 250973 string characters out of 5432385
+ 1452675 words of memory out of 5000000
+ 43054 multiletter control sequences out of 15000+600000
  635770 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,82p,365b,2156s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on maquinita.pdf (18 pages, 1390389 bytes).
+ 75i,12n,82p,365b,2201s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0500.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\LENOVO\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on maquinita.pdf (19 pages, 1426259 bytes).
 PDF statistics:
- 2253 PDF objects out of 2487 (max. 8388607)
- 1362 named destinations out of 1440 (max. 500000)
- 350 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2359 PDF objects out of 2487 (max. 8388607)
+ 1423 named destinations out of 1440 (max. 500000)
+ 374 words of extra memory for PDF output out of 10000 (max. 10000000)
 

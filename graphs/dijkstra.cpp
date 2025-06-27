@@ -1,7 +1,7 @@
 /*
  * Dijkstra's Algorithm
- * Encuentra las distancias mínimas desde un nodo origen en un grafo ponderado sin pesos negativos.
- * Complejidad: O((V + E) log V)
+ * Finds the minimum distances from a source node in a weighted graph with no negative weights.
+ * Complexity: O((V + E) log V)
  */
 
 #include <bits/stdc++.h>

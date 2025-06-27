@@ -1,8 +1,8 @@
 /*
  * Union-Find (Disjoint Set Union - DSU)
- * Operaciones eficientes de unión y búsqueda de conjuntos disjuntos.
- * Soporta compresión de caminos y unión por tamaño o rango.
- * Complejidad amortizada: O(α(n)) por operación
+ * Efficient operations for union and find on disjoint sets.
+ * Supports path compression and union by size or rank.
+ * Amortized complexity: O(alpha(n)) per operation
  */
 
 #include <bits/stdc++.h>
@@ -19,14 +19,14 @@ struct DSU {
 
     int find(int u) {
         if (parent[u] != u)
-            parent[u] = find(parent[u]); // compresión de caminos
+            parent[u] = find(parent[u]); // path compression
         return parent[u];
     }
 
     bool unite(int u, int v) {
         u = find(u), v = find(v);
         if (u == v) return false;
-        if (size[u] < size[v]) swap(u, v); // unión por tamaño
+        if (size[u] < size[v]) swap(u, v); // union by size
         parent[v] = u;
         size[u] += size[v];
         return true;

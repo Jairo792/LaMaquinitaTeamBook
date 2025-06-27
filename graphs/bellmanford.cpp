@@ -1,7 +1,7 @@
 /*
  * Bellman-Ford Algorithm
- * Calcula la distancia más corta desde un nodo origen, detecta ciclos negativos.
- * Complejidad: O(V * E)
+ * Calculates the shortest distance from a source node, detects negative cycles.
+ * Complexity: O(V * E)
  */
 
 #include <bits/stdc++.h>
@@ -24,7 +24,7 @@ vector<int> bellman_ford(int n, int src, const vector<Edge>& edges) {
         }
     }
 
-    // Detección de ciclo negativo
+    // Negative cycle detection
     for (auto [u, v, w] : edges) {
         if (dist[u] < INF && dist[v] > dist[u] + w)
             throw runtime_error("Negative weight cycle detected");
