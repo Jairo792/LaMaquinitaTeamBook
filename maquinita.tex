@@ -98,7 +98,58 @@ Para generar arreglos consecutivos
 \cppfile{varios/viborita.cpp}
 \subsection{Triangulo de Pascal}
 \cppfile{varios/pascal.cpp}
+
 \section{Geometry}
+\subsection{Basicas}
+\begin{align}
+  &\textbf{Distancia entre dos puntos:} \quad d(P,Q)=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2} \\
+  &\textbf{Producto punto:} \quad \mathbf{a}\cdot\mathbf{b}=a_x b_x + a_y b_y \\
+  &\textbf{Producto cruz (2D):} \quad \mathbf{a}\times\mathbf{b}=a_x b_y - a_y b_x \\
+  &\textbf{Norma de vector:} \quad \|\mathbf{a}\|=\sqrt{a_x^2+a_y^2}
+\end{align}
+
+\subsection{Triángulos}
+\begin{align}
+  &\textbf{Área (1/2 base\,$\times$\,altura):} \quad A=\tfrac12|\mathbf{AB}\times\mathbf{AC}| \\
+  &\textbf{Herón:} \quad s=\tfrac{a+b+c}{2}, \quad A=\sqrt{s(s-a)(s-b)(s-c)} \\
+  &\textbf{Circunradio:} \quad R=\frac{abc}{4A}, \quad \text{Inradio: } r=\frac{2A}{a+b+c} \\
+  &\textbf{Incentro:} \quad I=\frac{aA + bB + cC}{a+b+c}
+\end{align}
+
+\subsection{Polígonos}
+\begin{align}
+  &\textbf{Área (shoelace):} \quad A=\tfrac12\Bigl|\sum_{i=0}^{n-1}(x_i y_{i+1} - x_{i+1} y_i)\Bigr| \\
+  &\textbf{Centroide:} \\
+  &\quad C_x=\frac{1}{6A}\sum_{i}(x_i+x_{i+1})(x_i y_{i+1}-x_{i+1}y_i), \\ 
+  &\quad C_y=\frac{1}{6A}\sum_{i}(y_i+y_{i+1})(x_i y_{i+1}-x_{i+1}y_i)
+\end{align}
+
+\subsection{Círculos}
+\begin{align}
+  &\textbf{Ecuación:} \quad (x-h)^2+(y-k)^2=r^2 \\
+  &\textbf{Intersección círculo-círculo:} \\
+  &\quad d=\|O_1O_2\|, \quad a=\frac{R^2 - r^2 + d^2}{2d}, \quad h=\sqrt{R^2-a^2} \\
+  &\quad \text{Puntos }P_1, P_2 = P_0 \pm h\frac{(O_2-O_1)^{\perp}}{d} \\
+  &\textbf{Área intersección:} \\
+  &\quad A=R^2\cos^{-1}\Bigl(\frac{d^2+R^2-r^2}{2dR}\Bigr)
+        +r^2\cos^{-1}\Bigl(\frac{d^2+r^2-R^2}{2dr}\Bigr)\\
+  &\quad\; -\tfrac12\sqrt{(-d+R+r)(d+R-r)(d-R+r)(d+R+r)}
+\end{align}
+
+\subsection{Vectores y Operaciones}
+\begin{align}
+  &\textbf{Conversión polar→cartesiano:} \quad x=r\cos\theta,\;y=r\sin\theta \\
+  &\textbf{Conversión cartesiano→polar:} \quad r=\sqrt{x^2+y^2},\;\theta=\operatorname{atan2}(y,x) \\
+  &\textbf{Rotación:} \quad (x',y')=\bigl(x\cos\theta - y\sin\theta,\; x\sin\theta + y\cos\theta\bigr)
+\end{align}
+
+\subsection{Orientación y Segmentos}
+\begin{align}
+  &\textbf{Orient}(A,B,C)=\operatorname{sign}((B-A)\times(C-A)) \\
+  &\textbf{Distancia punto–línea:} \quad d(P,L)=\frac{|Ax_P+By_P+C|}{\sqrt{A^2+B^2}} \\
+  &\textbf{Intersección segmentos:} \quad \text{Check orientaciones y proyecciones.}
+\end{align}
+
 \subsection{Formulas Basicas}
 \cppfile{geometry/areas.cpp}
 \subsection{Convex Hull}
@@ -107,6 +158,19 @@ Para generar arreglos consecutivos
 \cppfile{geometry/trigo.cpp}
 
 \section{Math}
+\subsection{Criterios de Divisibilidad}
+\begin{align*}
+\textbf{2:} &\ \text{el último dígito es par} \\
+\textbf{3:} &\ \text{la sumatoria de los dígitos es divisible por 3} \\
+\textbf{4:} &\ \text{las dos últimas cifras son 00 o forman un número divisible entre 4} \\
+\textbf{5:} &\ \text{la última cifra es 0 o 5} \\
+\textbf{6:} &\ \text{es divisible por 2 y por 3 a la vez} \\
+\textbf{7:} &\ \text{la diferencia entre el número sin la cifra de las unidades} \\
+           &\ \text{y el doble de la cifra de las unidades es múltiplo de 7} \\
+\textbf{8:} &\ \text{las tres últimas cifras son 000 o forman un número divisible por 8} \\
+\textbf{9:} &\ \text{la suma de sus cifras es un número divisible entre 9} \\
+\textbf{10:} &\ \text{el último dígito es 0}
+\end{align*}
 \subsection{Factores de un numero}
 \cppfile{math/factores.cpp}
 \subsection{Linear Sieve}
