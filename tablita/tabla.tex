@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{array}
+\usepackage{geometry}
+\geometry{margin=1.5cm}
+
+% Columna centrada de ancho fijo
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\begin{document}
+
+{\ttfamily
+\begin{table}[ht]
+\centering
+\renewcommand{\arraystretch}{3.5} % Ajusta la altura de las filas
+\begin{tabular}{|C{2cm}|C{2.5cm}|C{2.5cm}|C{2.5cm}|C{2.5cm}|}
+  \hline
+  \textbf{Problem} & \textbf{Comment} & \textbf{} & \textbf{} & \\
+  \hline
+  A & & & &\\
+  \hline
+  B & & & &\\
+  \hline
+  C & & & &\\
+  \hline
+  D & & & &\\
+  \hline
+  E & & & &\\
+  \hline
+  F & & & & \\
+  \hline
+  G & & & & \\
+  \hline
+  H & & & & \\
+  \hline
+  I & & & & \\
+  \hline
+  J & & & & \\
+  \hline
+  K & & & & \\
+  \hline
+  L & & & & \\
+  \hline
+  M & & & & \\
+  \hline
+  N & & & & \\
+  \hline
+\end{tabular}
+\end{table}
+}
+%pide de pagina
+
+\vspace{1em}
+
+
+\end{document}
