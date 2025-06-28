@@ -3,9 +3,15 @@
 \usepackage[spanish]{babel}
 \usepackage{array}
 \usepackage{geometry}
+\usepackage[table,xcdraw]{xcolor}
 \geometry{margin=1.5cm}
 
-% Columna centrada de ancho fijo
+\definecolor{icpcblue}{HTML}{1E90FF}
+\definecolor{icpcyellow}{HTML}{FFD700}
+\definecolor{icpcred}{HTML}{DC143C}
+\definecolor{icpcgreen}{HTML}{32CD32}
+\definecolor{icpcgray}{HTML}{D3D3D3}
+
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 
 \begin{document}
@@ -13,45 +19,43 @@
 {\ttfamily
 \begin{table}[ht]
 \centering
-\renewcommand{\arraystretch}{3.5} % Ajusta la altura de las filas
+\renewcommand{\arraystretch}{3.5}
 \begin{tabular}{|C{2cm}|C{2.5cm}|C{2.5cm}|C{2.5cm}|C{2.5cm}|}
   \hline
   \textbf{Problem} & \textbf{Comment} & \textbf{} & \textbf{} & \\
   \hline
-  A & & & &\\
+  \colorbox{icpcblue}{\strut \textbf{A}} & & & &\\
   \hline
-  B & & & &\\
+  \colorbox{icpcyellow}{\strut \textbf{B}} & & & &\\
   \hline
-  C & & & &\\
+  \colorbox{icpcred}{\strut \textbf{C}} & & & &\\
   \hline
-  D & & & &\\
+  \colorbox{icpcgreen}{\strut \textbf{D}} & & & &\\
   \hline
-  E & & & &\\
+  \colorbox{icpcgray}{\strut \textbf{E}} & & & &\\
   \hline
-  F & & & & \\
+  \colorbox{icpcblue}{\strut \textbf{F}} & & & & \\
   \hline
-  G & & & & \\
+  \colorbox{icpcyellow}{\strut \textbf{G}} & & & & \\
   \hline
-  H & & & & \\
+  \colorbox{icpcred}{\strut \textbf{H}} & & & & \\
   \hline
-  I & & & & \\
+  \colorbox{icpcgreen}{\strut \textbf{I}} & & & & \\
   \hline
-  J & & & & \\
+  \colorbox{icpcgray}{\strut \textbf{J}} & & & & \\
   \hline
-  K & & & & \\
+  \colorbox{icpcblue}{\strut \textbf{K}} & & & & \\
   \hline
-  L & & & & \\
+  \colorbox{icpcyellow}{\strut \textbf{L}} & & & & \\
   \hline
-  M & & & & \\
+  \colorbox{icpcred}{\strut \textbf{M}} & & & & \\
   \hline
-  N & & & & \\
+  \colorbox{icpcgray}{\strut \textbf{N}} & & & & \\
   \hline
 \end{tabular}
 \end{table}
 }
-%pide de pagina
-
 \vspace{1em}
 
-
 \end{document}
+
